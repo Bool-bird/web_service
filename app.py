@@ -175,7 +175,7 @@ for item in items:
         found = True
     elif category == "WSD": # 강풍>=9
         wsd = item.find('obsrValue').text 
-        wsd = int(float(ws))
+        wsd = int(float(wsd))
         if wsd >= 9: 
             key = '강풍'
         found = True
